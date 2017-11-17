@@ -1,0 +1,15 @@
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\bin\Debug\DesignPaterns.exe.config
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\bin\Debug\DesignPaterns.exe
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\bin\Debug\DesignPaterns.pdb
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns.csprojResolveAssemblyReference.cache
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\MainWindow.g.cs
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\App.g.cs
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns_MarkupCompile.cache
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns_MarkupCompile.lref
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\MainWindow.baml
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns.g.resources
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns.Properties.Resources.resources
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns.csproj.GenerateResource.Cache
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns.csproj.CoreCompileInputs.cache
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns.exe
+F:\Moje Programy\C#\DesignPaterns\DesignPaterns\obj\Debug\DesignPaterns.pdb
