@@ -36,6 +36,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -54,6 +57,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Builder\Builder.cs" />
+    <Compile Include="Builder\BuilderFacets.cs" />
     <Compile Include="Observer\Interface\IObserver.cs" />
     <Compile Include="Observer\Interface\ISubject.cs" />
     <Compile Include="Observer\StartDesigner.cs" />
@@ -66,6 +71,18 @@
     <Compile Include="Strategy\Interface\IFlys.cs" />
     <Compile Include="Strategy\Interface\ItFly.cs" />
     <Compile Include="Strategy\StartDesigner.cs" />
+    <Compile Include="_SOLID\Depedency Inversion\Depedency_Inversion.cs" />
+    <Compile Include="_SOLID\Depedency Inversion\Good.cs" />
+    <Compile Include="_SOLID\Depedency Inversion\Wrong.cs" />
+    <Compile Include="_SOLID\Interface Segregation\Good.cs" />
+    <Compile Include="_SOLID\Interface Segregation\Wrong.cs" />
+    <Compile Include="_SOLID\Liskov Substitution\Good.cs" />
+    <Compile Include="_SOLID\Liskov Substitution\Liskov.cs" />
+    <Compile Include="_SOLID\Liskov Substitution\Wrong.cs" />
+    <Compile Include="_SOLID\Open Close\Good.cs" />
+    <Compile Include="_SOLID\Open Close\Wrong.cs" />
+    <Compile Include="_SOLID\Single Responsibility\Good.cs" />
+    <Compile Include="_SOLID\Single Responsibility\Wrong.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -97,6 +114,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
