@@ -15,7 +15,7 @@ namespace DesignPaterns.Observer
             // Create an IObserver that will be sent updates from ISubject
             StockObserver firstObserver = new StockObserver(stockGrabber);
 
-            returnString += $"\nRegister observer {firstObserver.GetObserverId()}\n";
+            returnString += $"Register observer {firstObserver.GetObserverId()}\n";
 
             returnString += $"{stockGrabber.SetIbmPrice(111.00)}";
             returnString += $"{stockGrabber.SetAaplPrice(222.00)}";

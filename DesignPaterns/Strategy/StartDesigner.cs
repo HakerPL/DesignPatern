@@ -10,7 +10,7 @@ namespace DesignPaterns.Strategy
             Animal sparky = new Dog();
             Animal tweety = new Bird();
 
-            returnString += "\n" + sparky.TryToFly();
+            returnString += sparky.TryToFly();
             returnString += "\n" + tweety.TryToFly();
 
 	        // This allows dynamic changes for flyingType

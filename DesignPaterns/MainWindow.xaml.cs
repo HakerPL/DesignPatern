@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace DesignPaterns
 {
@@ -11,31 +12,67 @@ namespace DesignPaterns
         public MainWindow()
         {
             InitializeComponent();
+
+            SetButtonsColorGreen();
+            SetButtonsColorRed();
+
             txtField.IsReadOnly = true;
+        }
+
+        private void SetButtonsColorGreen()
+        {
+            btnStrategy.Background = Brushes.Green;
+            btnObserver.Background = Brushes.Green;
+            btnFactory.Background = Brushes.Green;
+            btnAbstractFactory.Background = Brushes.Green;
+        }
+
+        private void SetButtonsColorRed()
+        {
+            btnSingleton.Background = Brushes.Red;
+            btnBuilder.Background = Brushes.Red;
+            btnPrototype.Background = Brushes.Red;
+            btnDecorator.Background = Brushes.Red;
+            btnCommand.Background = Brushes.Red;
+            btnAdapter.Background = Brushes.Red;
+            btnFacade.Background = Brushes.Red;
+            btnBridge.Background = Brushes.Red;
+            btnTemplate.Background = Brushes.Red;
+            btnIterator.Background = Brushes.Red;
+            btnComposite.Background = Brushes.Red;
+            btnFlyweight.Background = Brushes.Red;
+            btnState.Background = Brushes.Red;
+            btnProxy.Background = Brushes.Red;
+            btnVisitor.Background = Brushes.Red;
+            btnInterpreter.Background = Brushes.Red;
+            btnMediator.Background = Brushes.Red;
+            btnMemento.Background = Brushes.Red;
+            btnChainOfResponsibility.Background = Brushes.Red;
+            btnMVC.Background = Brushes.Red;
         }
 
         private void btnStrategy_Click(object sender, RoutedEventArgs e)
         {
-            string showText = "\nDesign pattern Strategy" + DesignPaterns.Strategy.StartDesigner.Start() + "\n";
+            string showText = "\nDesign pattern Strategy \n" + Strategy.StartDesigner.Start() + "\n";
             ShowTextOnTextBox(showText);
         }
 
         private void btnObserver_Click(object sender, RoutedEventArgs e)
         {
-            string showText = "\nDesign pattern Observer" + DesignPaterns.Observer.StartDesigner.Start();
+            string showText = "\nDesign pattern Observer \n" + Observer.StartDesigner.Start() + "\n";
             ShowTextOnTextBox(showText);
         }
 
         private void btnFactory_Click(object sender, RoutedEventArgs e)
         {
-            if(sender is Button button)
-                ShowNotCreate(button);
+            string showText = "\nDesign pattern Factory \n" + Factory.StartDesigner.Start() + "\n";
+            ShowTextOnTextBox(showText);
         }
 
         private void btnAbstractFactory_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is Button button)
-                ShowNotCreate(button);
+            string showText = "\nDesign pattern AbstractFactory \n" + AbstractFactory.StartDesigner.Start() + "\n";
+            ShowTextOnTextBox(showText);
         }
 
         private void btnSingleton_Click(object sender, RoutedEventArgs e)

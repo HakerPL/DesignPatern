@@ -57,8 +57,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AbstractFactory\Coffee.cs" />
+    <Compile Include="AbstractFactory\HotDrinkMachineReflection.cs" />
+    <Compile Include="AbstractFactory\HotDrinkMachineOnEnum.cs" />
+    <Compile Include="AbstractFactory\Interface\IHotDrink.cs" />
+    <Compile Include="AbstractFactory\Interface\IHotDrinkFactory.cs" />
+    <Compile Include="AbstractFactory\StartDesigner.cs" />
+    <Compile Include="AbstractFactory\Tea.cs" />
     <Compile Include="Builder\Builder.cs" />
     <Compile Include="Builder\BuilderFacets.cs" />
+    <Compile Include="Factory\Factory.cs" />
+    <Compile Include="Factory\StartDesigner.cs" />
     <Compile Include="Observer\Interface\IObserver.cs" />
     <Compile Include="Observer\Interface\ISubject.cs" />
     <Compile Include="Observer\StartDesigner.cs" />
